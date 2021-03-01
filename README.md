@@ -13,12 +13,24 @@ git config --global user.name "Name Surname"
 git config --global user.email "name@surname.com"
 ```
 
-### Setup default git Editor
+### Setup default git editor
 
 Git use by default Vim or editor from `EDITOR` environment variable. If you want to use different editor, you can configure it.
 
 ```
 git config --global core.editor nano
+```
+
+### How edit global config
+
+```
+git config --global -e
+```
+
+### How list global config / and (if inside a repository) local config
+
+```
+git config --list
 ```
 
 ### Rebase workflow (if you want to use rebase workflow)
