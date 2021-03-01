@@ -1,4 +1,5 @@
 # Git setup
+
 Git - basic setup
 
 ## Basic Configuration
@@ -12,20 +13,20 @@ git config --global user.name "Name Surname"
 git config --global user.email "name@surname.com"
 ```
 
-### Rebase workflow (if you want to use rebase workflow)
-
-__WARNING__: Apply only if you want to use rebase workflow!
-
-```
-git config --global pull.ff only
-git config --global merge.ff only
-git config --global pull.rebase true
-```
-
-### Git Editor
+### Setup default git Editor
 
 Git use by default Vim or editor from `EDITOR` environment variable. If you want to use different editor, you can configure it.
 
 ```
 git config --global core.editor nano
+```
+
+### Rebase workflow (if you want to use rebase workflow)
+
+**WARNING**: Apply only if you want to use rebase workflow!
+
+```
+git config --global pull.ff only
+git config --global merge.ff only
+git config --global pull.rebase true
 ```
