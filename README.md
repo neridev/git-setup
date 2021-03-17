@@ -32,7 +32,7 @@ git config --global -e
 ```
 git config --list
 ```
-
+---
 ### Rebase workflow (if you want to use rebase workflow)
 
 **WARNING**: Apply only if you want to use rebase workflow!
