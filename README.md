@@ -32,6 +32,14 @@ git config --global -e
 ```
 git config --list
 ```
+
+---
+### Tool for generation .gitignore file
+
+```
+https://www.toptal.com/developers/gitignore
+```
+
 ---
 ### Rebase workflow (if you want to use rebase workflow)
 
