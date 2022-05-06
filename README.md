@@ -1,6 +1,6 @@
 # Git setup
 
-Git - basic setup
+Git - basic setup instructions
 
 ## Basic Configuration
 
